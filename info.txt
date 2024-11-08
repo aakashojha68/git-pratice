@@ -4,7 +4,7 @@ git remote add [alias_name] [repo_url] -> add repo url with alias_name in order 
 git branch -M main -> changes current branch name to main (main is the branch name)
 
 
-git push -u origin main -> "-u" means setting upstream. "-u" is the alais of "origin main" which can be used to push code.
+git push -u origin main 
 eg: 
-suppose first time you run this "git push -u origin main" in order to push code.
-this means that you have set -u as alais to "origin main". To push code in same repo for next time, you only have to run this "git push -u".
+It sets the upstream branch for your local branch. So, after the first git push -u origin main, you can simply run git push in the future, and it will push to the same remote and branch automatically.
+git push without any options or arguments will now push to the origin/main branch because that's the upstream reference you set with the -u flag.
