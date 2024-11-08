@@ -8,3 +8,8 @@ git push -u origin main
 eg: 
 It sets the upstream branch for your local branch. So, after the first git push -u origin main, you can simply run git push in the future, and it will push to the same remote and branch automatically.
 git push without any options or arguments will now push to the origin/main branch because that's the upstream reference you set with the -u flag.
+
+
+git branch -d branch-name -> delete branch
+
+git push origin branch-name -> pushing code in particular branch.
