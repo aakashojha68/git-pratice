@@ -13,3 +13,5 @@ git push without any options or arguments will now push to the origin/main branc
 git branch -d branch-name -> delete branch
 
 git push origin branch-name -> pushing code in particular branch.
+
+git merge branch-name -> merge current branch with "branchname".
